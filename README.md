@@ -16,3 +16,7 @@ Azure application insights
 Azure function app and Azure function
 ## Module 5
 Azure event grid subscription based on resource group as a scope
+## Appendix
+
+FYI- rg_id has to match the var in both tf and hcl. Didnt spend much time on it but 
+
