@@ -4,7 +4,7 @@ variable location {
 }
 
 #rg name
-variable resource_group_name {
+variable rg_name {
     description = "Resource Group Name for the virtual net"
 }
 
@@ -47,4 +47,29 @@ variable instrumentation_key {
 #connection string
 variable connection_string {
     description = "name of the connection string"
+}
+
+#resource group id
+variable "rg_id" {
+    description = "resource group id"
+}
+
+#eventschema
+variable "event_schema" {
+    description = "Event Delivery Schema"
+}
+
+#eventgrid sub name
+#variable "eventrgid_sub_name" {
+#    description = "eventgrid subscription name"
+#}
+
+#eventgrid topic
+variable "event_grid_topic" {
+  description = "event grid topic"
+}
+
+#function name
+variable "function_name" {
+  description = "function name"
 }

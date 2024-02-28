@@ -4,6 +4,6 @@ variable location {
 }
 
 #rg name
-variable resource_group_name {
+variable rg_name {
     description = "Resource Group Name for the virtual net"
 }
